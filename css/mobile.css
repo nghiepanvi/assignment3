@@ -1,0 +1,192 @@
+/* thiết lập dao diện mobile cho web */
+@media (max-width: 480px) {
+  nav,
+  .example-info,
+  .job,
+  .certificate,
+  .project-expand {
+    font-size: 12px;
+  }
+  body .mx-5 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .banner {
+    width: 500px;
+  }
+  /* thiết lập khối navbar */
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    align-items: normal !important;
+    border-right: normal !important;
+    border-left: normal !important;
+  }
+  .navbar {
+    max-width: 500px;
+  }
+  /* thiết lập thanh navbar thành dạng một cột */
+  .navbar .container {
+    flex-direction: column;
+
+    position: relative;
+    padding-left: 180px;
+    padding-right: 160px;
+  }
+  /*  điều chỉnh viền và  */
+  .navbar .container .icon {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    text-align: start;
+    margin-left: 20px;
+  }
+  .navbar .container .img {
+    height: 0px;
+  }
+  .navbar .container .border-start {
+    border-left: none !important;
+  }
+  .navbar .container .border-end {
+    border-right: none !important;
+    padding-left: 5px;
+  }
+  .example {
+    flex-direction: column;
+    justify-self: center;
+    max-width: 500px;
+    height: 100%;
+    margin: 0;
+  }
+  .example .container .example-info {
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+  }
+  .example-info .col-6 {
+    width: 500px !important;
+    height: 393px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .job {
+    width: 500px !important;
+  }
+  .job .comtainer {
+    text-align: center;
+    padding-left: 300px !important;
+  }
+  .job .row {
+    display: inline !important;
+  }
+  .job .row .col-4 {
+    width: 500px;
+    margin-left: 90px !important;
+  }
+  .job .row .col-4 .border {
+    padding-left: 10px;
+  }
+  .certificate,
+  .certificate .container {
+    flex-direction: column;
+    width: 500px !important;
+    height: 100%;
+  }
+
+  .certificate .row {
+    flex-direction: column;
+    border-bottom: normal !important;
+  }
+  .certificate .row .border-start {
+    padding-left: 23px !important;
+    border-left: none !important;
+  }
+  .certificate .row .border-top {
+    border-top: none !important;
+  }
+
+  .certificate .row .col-6 img {
+    width: 150px;
+  }
+  .project-expand {
+    width: 500px !important;
+    align-items: center !important;
+  }
+
+  .project-expand .row {
+    width: 500px !important;
+    flex-direction: column;
+  }
+  .project-expand .row .col-4 .card {
+    width: 350px !important;
+    margin-top: 5px;
+    margin-left: -150px !important;
+  }
+
+  .project-expand-xl {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* mobile projectchart width 300px */
+/* dat chieu rong cho tung khoi */
+@media (max-width: 300px) {
+  .container,
+  .project {
+    width: 300px !important;
+  }
+  .project,
+  .project .col-6,
+  .project .col-3 {
+    width: 100%;
+    width: 300px;
+    flex-wrap: nowrap;
+  }
+  /* thiet lap Width khoi */
+  .project .row {
+    flex-direction: column;
+  }
+
+  .col-6 .col .table .mx-4 {
+    display: grid;
+    grid-template-rows: 1tr auto;
+  }
+  .col-6 .col .table .mx-4 .ps-4 {
+    border-bottom: none;
+    padding-left: 0rem !important;
+    text-align: center;
+  }
+  .col-6 .col .d-flex {
+    flex-direction: column;
+  }
+  .col-6 .col .d-flex ul {
+    padding: 5px;
+  }
+  .project .col-3 .col .table tr {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .project .col-3 .col .table tr svg {
+    width: 234px !important;
+  }
+  .project .col-3 .p-3 table tr {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .project .col-3 .p-3 .table {
+    margin-top: 10px;
+  }
+  .project .col-3 .p-3 table tr .px-2 {
+    padding: 0px;
+    height: 30px !important;
+  }
+}

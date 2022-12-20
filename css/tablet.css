@@ -1,0 +1,189 @@
+/* thiet lap cho tablet */
+@media (max-width: 1024px) {
+  /* responsive */
+  nav,
+  .example-info,
+  .job,
+  .certificate,
+  .project-expand {
+    font-size: 12px;
+  }
+
+  .banner {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  nav {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .navbar,
+  .navbar .navbar-expand-xxl {
+    flex-wrap: nowrap !important;
+  }
+  .navbar .container,
+  .navbar .container-fluid-xl,
+  .navbar .container .d-flex {
+    flex-wrap: nowrap;
+    margin: 0px;
+  }
+  .navbar .container .icon {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    white-space: 5px;
+  }
+  .navbar .container img {
+    position: relative !important;
+    height: 0px !important;
+    width: 0px !important;
+  }
+  .navbar .container .d-flex {
+    flex-wrap: nowrap !important;
+  }
+  .example-info {
+    justify-self: center;
+    max-width: 768px;
+    height: 100%;
+    margin: 0;
+  }
+  .example-info .container {
+    max-width: 760px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .example-info .col-6 {
+    max-width: 350px;
+    margin: 0px;
+    display: grid;
+    padding-left: 0;
+  }
+  .job,
+  .job .comntainer {
+    max-width: 768px;
+
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .job .row {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr auto auto;
+    justify-content: center;
+    margin-left: -30px;
+    padding-left: 5px;
+    max-width: 768px;
+  }
+  .job .row .col-4 .border {
+    width: 300px;
+    justify-content: center;
+    padding-left: 10px;
+  }
+  .job .row .col-4 .px-5 {
+    padding: 0px;
+    margin-left: -50px;
+  }
+  .certificate,
+  .certificate .container {
+    margin-left: -10px;
+    max-width: 768px;
+    height: 100%;
+  }
+  .certificate .row {
+    width: 750px;
+    overflow: hidden;
+    border-style: none;
+  }
+  .certificate .row .border-top {
+    max-width: 650px;
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+  .certificate .row .d-flex {
+    padding-right: 0px;
+  }
+  .certificate .row .border-start {
+    padding-left: 0px;
+  }
+  .certificate .row .col-6 img {
+    width: 150px;
+  }
+  .project-expand {
+    justify-content: center;
+    align-items: center;
+    max-width: 760px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .project-expand .row {
+    justify-content: center;
+    align-items: center;
+  }
+  .project-expand .row {
+    font-size: 12px;
+    max-width: 760px;
+    margin-left: -0px !important;
+  }
+  .project-expand .row .col-4 li {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .project-expand-xl {
+    max-width: 760px;
+    justify-content: center;
+    align-items: center;
+  }
+  /* tablet projectchart width 768px */
+  /* dat chieu rong cho tung khoi */
+  .container.project {
+    max-width: 768px;
+  }
+  .project,
+  .project .col-6,
+  .project .col-3 {
+    width: 100%;
+    max-width: 768px;
+    flex-wrap: nowrap;
+  }
+  /* thiet lap Width khoi */
+  .project .row {
+    flex-direction: column;
+  }
+
+  .col-6 .col .table .mx-4 {
+    display: grid;
+    grid-template-rows: 1tr auto;
+  }
+  .col-6 .col .table .mx-4 .ps-4 {
+    border-bottom: none;
+    padding-left: 0rem !important;
+    text-align: center;
+  }
+  .col-6 .col .d-flex {
+    flex-direction: column;
+  }
+  .col-6 .col .d-flex ul {
+    padding: 5px;
+  }
+  .project .col-3 .col .table tr {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .project .col-3 .col .table tr svg {
+    max-width: 700px !important;
+  }
+  .project .col-3 .p-3 table tr {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .project .col-3 .p-3 .table {
+    margin-top: 10px;
+  }
+  .project .col-3 .p-3 table tr .px-2 {
+    padding: 0px;
+    height: 30px !important;
+  }
+}
