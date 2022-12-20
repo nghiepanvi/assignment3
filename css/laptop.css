@@ -61,6 +61,5 @@ các côt "col-" trong khối row có height bằng nhau (nguồn: google)
   flex-direction: column;
 }
 .img077 {
-  border: solid 10px white;
   border-radius: 70px 70px;
 }
